@@ -1,0 +1,5 @@
+Parallel02IT.class
+steps\LoginSteps.class
+Parallel01IT.class
+steps\AfterActions.class
+steps\BeforeActions.class

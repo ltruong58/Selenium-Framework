@@ -1,0 +1,7 @@
+pages\actions\LoginActions.class
+pages\utils\Config.class
+pages\utils\SeleniumHelper.class
+pages\utils\RandomString.class
+pages\locators\LoginLocators.class
+pages\utils\SauceUtils.class
+pages\utils\SeleniumDriver.class

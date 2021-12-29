@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6922078400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User Not able to log in successfully",
+        "description": "",
+        "id": "user-not-able-to-successfully-log-in-to-connect;user-not-able-to-log-in-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1548218400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10607035800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enters email \"max.muerzati\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "max.muerzati",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2071636800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click log in button",
+            "match": {
+              "location": "LoginSteps.iClickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081733100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"Password135\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password135",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2079246400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click log in button",
+            "match": {
+              "location": "LoginSteps.iClickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the Invalid username or password.",
+            "match": {
+              "location": "LoginSteps.iVerifyTheInvalidUsernameOrPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User Not able to successfully log in to Connect",
+    "description": "",
+    "id": "user-not-able-to-successfully-log-in-to-connect",
+    "keyword": "Feature",
+    "uri": "C:/Users/LongTruong/IdeaProjects/connect-autotest/src/test/resources/features/LoginNegative.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]

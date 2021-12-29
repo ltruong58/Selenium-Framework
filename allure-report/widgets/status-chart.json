@@ -1,0 +1,21 @@
+[ {
+  "uid" : "dd380a6fb8daf7bc",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1637609009807,
+    "stop" : 1637609034252,
+    "duration" : 24445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9947669eff17f839",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1637609009816,
+    "stop" : 1637609055830,
+    "duration" : 46014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

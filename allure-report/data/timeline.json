@@ -1,0 +1,51 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Long-Truong-LT",
+    "children" : [ {
+      "name" : "23276@Long-Truong-LT.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "dd380a6fb8daf7bc",
+        "parentUid" : "8807c1a66e1ae74c8525266c3d95f3cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637609009807,
+          "stop" : 1637609034252,
+          "duration" : 24445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "User Not able to successfully log in to Connect" ]
+      } ],
+      "uid" : "8807c1a66e1ae74c8525266c3d95f3cf"
+    }, {
+      "name" : "25212@Long-Truong-LT.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "9947669eff17f839",
+        "parentUid" : "e09c82875880f8cef29bada74ed463ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637609009816,
+          "stop" : 1637609055830,
+          "duration" : 46014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "User able to successfully log in to Connect" ]
+      } ],
+      "uid" : "e09c82875880f8cef29bada74ed463ea"
+    } ],
+    "uid" : "8f20aa5149492ccec34ea8e71247d0f9"
+  } ]
+}

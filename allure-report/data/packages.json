@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Parallel02IT",
+    "children" : [ {
+      "name" : "feature",
+      "uid" : "dd380a6fb8daf7bc",
+      "parentUid" : "ca27b665360b9b6eea0a8a5965ec744a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637609009807,
+        "stop" : 1637609034252,
+        "duration" : 24445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "User Not able to successfully log in to Connect" ]
+    } ],
+    "uid" : "ca27b665360b9b6eea0a8a5965ec744a"
+  }, {
+    "name" : "Parallel01IT",
+    "children" : [ {
+      "name" : "feature",
+      "uid" : "9947669eff17f839",
+      "parentUid" : "d8862dac0fa0039242a24cd6fe9a4168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637609009816,
+        "stop" : 1637609055830,
+        "duration" : 46014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "User able to successfully log in to Connect" ]
+    } ],
+    "uid" : "d8862dac0fa0039242a24cd6fe9a4168"
+  } ]
+}

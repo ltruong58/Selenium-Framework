@@ -1,0 +1,298 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6464307200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User able to log in successfully",
+        "description": "",
+        "id": "user-able-to-successfully-log-in-to-connect;user-able-to-log-in-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1401716000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10613388501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enters email \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2069771099,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click log in button",
+            "match": {
+              "location": "LoginSteps.iClickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065439500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069633301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click log in button",
+            "match": {
+              "location": "LoginSteps.iClickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I test if this work",
+            "match": {
+              "location": "LoginSteps.iTestIfThisWork()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "test \"\u003cparam\u003e\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I verify the home page",
+            "match": {
+              "location": "LoginSteps.iVerifyTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3819946901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User able to log in successfully",
+        "description": "",
+        "id": "user-able-to-successfully-log-in-to-connect;user-able-to-log-in-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1115683601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10498812500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enters email \"kaka1508\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kaka1508",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2102680400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click log in button",
+            "match": {
+              "location": "LoginSteps.iClickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2104334400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"RV30SQqI0IIdev2ak8LrFHSgX6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RV30SQqI0IIdev2ak8LrFHSgX6",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059419199,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click log in button",
+            "match": {
+              "location": "LoginSteps.iClickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I test if this work",
+            "match": {
+              "location": "LoginSteps.iTestIfThisWork()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "test \"\u003cparam\u003e\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I verify the home page",
+            "match": {
+              "location": "LoginSteps.iVerifyTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User able to successfully log in to Connect",
+    "description": "",
+    "id": "user-able-to-successfully-log-in-to-connect",
+    "keyword": "Feature",
+    "uri": "C:/Users/LongTruong/IdeaProjects/connect-autotest/src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
